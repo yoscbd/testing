@@ -18,16 +18,17 @@
  * @package WordPress
  */
 if (strstr($_SERVER['SERVER_NAME'], '127.0.0.1')) {
+
     define('DB_NAME', 'testing');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '');
     define('DB_HOST', 'localhost');
 
 } else {
-    define('DB_NAME', 'testgutenberg2');
-    define('DB_USER', 'ybdgut');
-    define('DB_PASSWORD', 'cX7OKZC$&RN2');
-    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'testingongit');
+    define('DB_USER', 'ybdtestgit');
+    define('DB_PASSWORD', '&orGePPRF[NU');
+    define('DB_HOST', "localhost");
 
 }
 // ** Database settings - You can get this info from your web host ** //
